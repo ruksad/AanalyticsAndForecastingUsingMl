@@ -13,6 +13,7 @@ Python script and README.
 | [`titanic/`](titanic/) | Survival prediction | Binary classification | seaborn `titanic` |
 | [`house_prices/`](house_prices/) | Regression prediction | Regression | sklearn `diabetes` (bundled) |
 | [`iris/`](iris/) | Species classification | Multi-class classification | sklearn `iris` |
+| [`rossmann_sales/`](rossmann_sales/) | Store sales forecasting | Time-series regression | Synthetic Rossmann-schema data |
 
 ---
 
@@ -26,6 +27,7 @@ pip install -r requirements.txt
 python titanic/titanic_classification.py
 python house_prices/house_prices_regression.py
 python iris/iris_classification.py
+python rossmann_sales/rossmann_sales_forecasting.py
 ```
 
 All datasets are downloaded automatically — no manual Kaggle downloads needed.
@@ -43,6 +45,9 @@ AnalyticsAndForecastingUsingMl/
 ├── house_prices/
 │   ├── README.md
 │   └── house_prices_regression.py
+├── rossmann_sales/
+│   ├── README.md
+│   └── rossmann_sales_forecasting.py
 └── iris/
     ├── README.md
     └── iris_classification.py
